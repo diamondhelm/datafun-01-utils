@@ -3,10 +3,7 @@ Module: utils_helm
 
 Purpose: Reusable Module for My Analytics Projects
 
-Description: This module provides a byline for my analytics projects. 
-When we work hard to write useful code, we want it to be reusable.
-A good byline could be used in every Python analytics project we do.
-
+Description: This module provides information about Treefort Drop In Hourly ChildCare and highlights important information for parents in search of quality childcare in the Omaha area.
 Author: Diamond Helm
 
 TODO: Change the module name in this opening docstring
@@ -28,46 +25,46 @@ import statistics  # provides mean(), stdev() and more....
 
 # declare a boolean variable (has a value True or False)
 # TODO: Add another or replace this with your own boolean variable
-has_international_clients: bool = True
+has_childcare_for_ages_newborn_to_school_ age: bool = True
 
 # declare an integer variable 
 # TODO: Add or replace this with your own integer variable
-years_in_operation: int = 10
+number_of_staff_memebers: int = 15
 
 # declare a floating point variable
 # TODO: Add or replace this with your own floating point variable
-average_client_satisfaction: float = 4.7
+parent_satisfaction: float = 4.9
 
 # declare a list of strings
 # TODO: Add or replace this with your own list  
-skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
+classrooms_offered: list = ["Infants", "Toddler", "Transitional PreK", "Preschool and School Age" ]
 
 # declare a list of numbers so we can illustrate statistics skills
 # TODO: Add or replace this with your own numeric list  
-client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
+children_per_day: list = [4, 10, 14, 19]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: Replace these variable names with the variable name of your own numeric list
-min_score: float = min(client_satisfaction_scores)  
-max_score: float = max(client_satisfaction_scores)  
-mean_score: float = statistics.mean(client_satisfaction_scores)  
-stdev_score: float = statistics.stdev(client_satisfaction_scores)
+min_children: float = min(children_per_day)  
+max_children: float = max(children_per_day)  
+mean_children: float = statistics.mean(children_per_day)  
+stdev_children: float = statistics.stdev(children_per_day)
 
 # Use a Python formatted string (f-string) to show information
 # TODO: Modify the text in the byline to fit your information
 # TODO: Modify the variables in the byline to use your variable names
 byline: str = f"""
----------------------------------------------------------
-Stellar Analytics: Delivering Professional Insights
----------------------------------------------------------
-Has International Clients:  {has_international_clients}
-Years in Operation:         {years_in_operation}
-Skills Offered:             {skills_offered}
-Client Satisfaction Scores: {client_satisfaction_scores}
-Minimum Satisfaction Score: {min_score}
-Maximum Satisfaction Score: {max_score}
-Mean Satisfaction Score: {mean_score:.2f}
-Standard Deviation of Satisfaction Scores: {stdev_score:.2f}
+--------------------------------------------------------
+Treefort Drop In Hourly Child Care Facts
+--------------------------------------------------------
+Has Childcare for infans to school age:  {has_infant_to_school_age}
+Number of staff members:         {number_of_staff_members}
+Classrooms Offered:             {Classrooms_offered}
+Parent Satisfaction Scores: {client_satisfaction_scores}
+Minimum Children Per Day: {min_Children_per_day}
+Maximum Children Per Day: {max_Children_per_day}
+Mean Children Per Day: {mean_Children_per_day:.2f}
+Standard Deviation of Satisfaction Scores: {stdev_Children_per_day:.2f}
 """
 
 #####################################
