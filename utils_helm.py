@@ -1,7 +1,7 @@
 """
 Module: utils_helm
 
-Purpose: Reusable Module for My Analytics Projects
+Purpose: Reusable Module for My Analytics Projects 
 
 Description: This module provides information about Treefort Drop In Hourly ChildCare and highlights important information for parents in search of quality childcare in the Omaha area.
 Author: Diamond Helm
